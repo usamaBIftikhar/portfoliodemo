@@ -82,3 +82,29 @@
     font-weight: bold;
     box-shadow: 0 0 15px white;
 }
+/* About Us */
+#about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: rgb(0, 0, 0, 0.9);
+    color: white;
+}
+#image{
+    display: flex;
+}
+#image img{
+    width: 575px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
