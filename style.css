@@ -108,3 +108,27 @@
     margin-bottom: 20px;
     text-align: center;
 }
+
+/* Portfolio */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: rgb(0, 0, 0, 0.9);
+    color: white;
+    align-items: center;
+    box-sizing: border-box;
+}
+.design{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.design img{
+    border: 1px solid white;
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
