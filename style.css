@@ -9,6 +9,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
 }
 .navbar ul{
     display: flex;
@@ -34,4 +36,49 @@
 #home{
     display: flex;
     flex-direction: column;
+    background-color: rgb(0,0,0, 0.5);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 740px;
+}
+#home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('img/person.jpg') center/cover;
+    opacity: 0.8;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    right: 10% ;
+    top: 30%;
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: 0.6s ease;
+    border-radius: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 15px white;
 }
