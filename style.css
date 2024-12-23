@@ -132,3 +132,46 @@
     height: 240px;
     margin: 10px;
 }
+
+/* Contact US */
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: rgb(0, 0, 0, 0.9);
+    color: white;
+    align-items: center;
+    box-sizing: border-box;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    margin: 10px;
+    width: 360px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+.form-control textarea{
+    margin: 10px;
+    width: 360px;
+    height: 200px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+#send{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}
